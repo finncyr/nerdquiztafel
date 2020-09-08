@@ -4,6 +4,7 @@ anklickbare Tafel fürs Nerdquiz
 * HTML/Javascript/CSS
 * Credits gehen an Mehmet für die Hauptentwicklung der Tafel
 * ich habe sie nur noch an meine Wünsche angepasst (Farben etc.)
+
 ![animation](https://user-images.githubusercontent.com/48357999/92496988-1e8e1480-f1f9-11ea-969c-623a0a810fd1.gif)
 
 
