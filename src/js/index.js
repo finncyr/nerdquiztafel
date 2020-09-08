@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('td').click(function () {
         if (jQuery(this).attr('clicked') === 'true') {
-            $(this).css('background-color', 'white');
+            $(this).css('background-color', 'transparent');
             $(this).attr('clicked', 'false');
 
         } else {
