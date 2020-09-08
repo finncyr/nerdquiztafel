@@ -2,11 +2,11 @@ Table {
 
     /*Hier änderst du die schrift größe*/
     font-size: 25px;
-    /*Macht die schrift dick kannst du rauslöschen wenn du willst*/
+    /*Macht die Schrift dick kannst du rauslöschen wenn du willst*/
     font-weight: bold;
 
-    /*ignoriren*/
-    max-width: 90%;
+    /*ignorieren*/
+    max-width: 70%;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;

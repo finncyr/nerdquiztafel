@@ -19,5 +19,11 @@ $(document).ready(function () {
             $(this).html(a * 2);
         });
     });
+    $("#divider").click(function () {
+        $("#myTable").find('td').each(function () {
+            var a = parseInt($(this).html());
+            $(this).html(a / 2);
+        });
+    });
 
 });
