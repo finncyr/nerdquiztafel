@@ -20,25 +20,25 @@ $(document).ready(function () {
     function checkKey(e) {
     e = e || window.event;
 
-    // linke Pfeiltaste
-    if (e.keyCode == 37) {
+    // Y
+    if (e.keyCode == 89) {
         document.getElementById('body').className = "show";
         var myVar =  setInterval(function(){  document.getElementById('body').className = ""; clearInterval(myVar);}, 500);
-        setTimeout(function(){ alert("Orange hat gedrückt!"); }, 500);
+        setTimeout(function(){ alert("Orange hat gedrückt!"); }, 400);
 
     }
-    // oben Pfeiltaste
-    else if (e.keyCode == 38) {
+    // X
+    else if (e.keyCode == 88) {
         document.getElementById('body').className = "show2";
         var myVar =  setInterval(function(){  document.getElementById('body').className = ""; clearInterval(myVar);}, 500);
-        setTimeout(function(){ alert("Blau hat gedrückt!"); }, 500);        
+        setTimeout(function(){ alert("Blau hat gedrückt!"); }, 400);        
 
     }
-    // rechts Pfeiltaste
-    else if (e.keyCode == 39) {
+    // C
+    else if (e.keyCode == 67) {
     document.getElementById('body').className = "show3";
     var myVar =  setInterval(function(){  document.getElementById('body').className = ""; clearInterval(myVar);}, 500);
-    setTimeout(function(){ alert("Grün hat gedrückt!"); }, 500);        
+    setTimeout(function(){ alert("Grün hat gedrückt!"); }, 400);        
     }
 }
 
