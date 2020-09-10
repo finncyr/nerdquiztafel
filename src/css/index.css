@@ -39,7 +39,7 @@ th {
     
 }
 
-  #body.show {
+#body.show {
     /* background-color: rgba(175, 30, 30,0); */
     background-color: rgba(243, 177, 35,1);
     transition: all 0.4s ease-out;
@@ -48,7 +48,7 @@ th {
     -webkit-transition: all 0.4s ease-out;
 }
 
-  #body.show2 {
+#body.show2 {
     /* background-color: rgba(175, 30, 30,0); */
     background-color: rgba(50, 46, 253,1);
     transition: all 0.4s ease-out;
