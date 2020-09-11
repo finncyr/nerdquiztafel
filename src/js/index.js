@@ -18,29 +18,29 @@ $(document).ready(function () {
     body.onkeydown = checkKey;
 
     function checkKey(e) {
-    e = e || window.event;
+        e = e || window.event;
 
-    // Y
-    if (e.keyCode == 89) {
-        document.getElementById('body').className = "show";
-        var myVar =  setInterval(function(){  document.getElementById('body').className = ""; clearInterval(myVar);}, 500);
-        setTimeout(function(){ alert("Orange hat gedrückt!"); }, 400);
+        // Y
+        if (e.keyCode == 89) {
+            document.getElementById('body').className = "show";
+            var myVar = setInterval(function () { document.getElementById('body').className = ""; clearInterval(myVar); }, 500);
+            setTimeout(function () { alert("Orange hat gedrückt!"); }, 400);
 
-    }
-    // X
-    else if (e.keyCode == 88) {
-        document.getElementById('body').className = "show2";
-        var myVar =  setInterval(function(){  document.getElementById('body').className = ""; clearInterval(myVar);}, 500);
-        setTimeout(function(){ alert("Blau hat gedrückt!"); }, 400);        
+        }
+        // X
+        else if (e.keyCode == 88) {
+            document.getElementById('body').className = "show2";
+            var myVar = setInterval(function () { document.getElementById('body').className = ""; clearInterval(myVar); }, 500);
+            setTimeout(function () { alert("Blau hat gedrückt!"); }, 400);
 
+        }
+        // C
+        else if (e.keyCode == 67) {
+            document.getElementById('body').className = "show3";
+            var myVar = setInterval(function () { document.getElementById('body').className = ""; clearInterval(myVar); }, 500);
+            setTimeout(function () { alert("Grün hat gedrückt!"); }, 400);
+        }
     }
-    // C
-    else if (e.keyCode == 67) {
-    document.getElementById('body').className = "show3";
-    var myVar =  setInterval(function(){  document.getElementById('body').className = ""; clearInterval(myVar);}, 500);
-    setTimeout(function(){ alert("Grün hat gedrückt!"); }, 400);        
-    }
-}
 
 
     $("#doubler").click(function () {
@@ -65,7 +65,7 @@ $(document).ready(function () {
 
     });
 
-    
+
 
 });
 
