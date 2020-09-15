@@ -1,11 +1,13 @@
 let round = 1;
+var lastColor;
 $(document).ready(function () {
 
     $('td').click(function () {
         if (jQuery(this).attr('clicked') === 'true') {
-            $(this).css('background-color', 'transparent');
+            $(this).css('background-color', lastColor);
             $(this).attr('clicked', 'false');
         } else {
+           lastColor = $(this).css('background-color');
             $(this).css('background-color', 'gray');
             $(this).attr('clicked', 'true');
         }
