@@ -7,7 +7,9 @@
     <meta charset="UTF-8">
     <script src="../js/jquery.js"></script>
     <script src="../js/propper.js"></script>
+    <script src="../js/jquery.editable.min.js"></script>
     <script src="../js/index.js"></script>
+    
 
 
 
@@ -98,6 +100,34 @@
 <p>&nbsp</p>
 <button type="button" id="divider" class="btn btn-primary">zurück</button>
 
+</div>
+
+<p>&nbsp;</p>
+
+<div class="d-flex justify-content-center">
+
+    <table id="scoreboard" class="table" >
+        <thead>
+
+
+        <!--Themenüberschriften  -->
+        <tr>
+            <th style="text-align:center"; scope="col" class="playername">Spieler 1</th>
+            <th style="text-align:center"; scope="col" class="playername">Spieler 2</th>
+            <th style="text-align:center"; scope="col" class="playername">Spieler 3</th>
+            <th style="text-align:center"; scope="col" class="playername">Spieler 4</th>
+        </tr>
+       </thead>
+        <tbody>
+            <tr>
+                <!--<th scope="row">X</th>-->
+                <td style="background-color: lightblue;" class="score">0</td>
+                <td style="background-color: lightcoral;" class="score">0</td>
+                <td style="background-color: lightseagreen;" class="score">0</td>
+                <td style="background-color: lightgreen;" class="score">0</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 </body>
