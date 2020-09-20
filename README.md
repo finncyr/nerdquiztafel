@@ -1,5 +1,5 @@
 # Nerd-Quiz-Tafel
-anklickbare Tafel fürs Nerdquiz
+Nerd Quiz Point Tool
 
 * HTML/Javascript/CSS
 * Original by marcb4
@@ -10,3 +10,5 @@ anklickbare Tafel fürs Nerdquiz
 ## Use
 
 Open `src/html/index.html` in any browser!
+
+Double-Click on Names, Topics and Player Score to edit them.
