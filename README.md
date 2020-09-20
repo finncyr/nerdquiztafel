@@ -7,4 +7,6 @@ anklickbare Tafel fürs Nerdquiz
 
 ![animation](https://raw.githubusercontent.com/finncyr/nerdquiztafel/master/pics/NerdQuiz.gif)
 
+## Use
 
+Open `src/html/index.html` in any browser!
