@@ -1,4 +1,17 @@
-Table {
+div{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+table {
 
     /*Hier änderst du die schrift größe*/
     font-size: 25px;
@@ -9,13 +22,7 @@ Table {
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-}
-div{
-    width: 100%;
-    height: 100%;
-}
-body{
-    color: white;
+    border-spacing: 4px;
 }
 
 td {
@@ -23,10 +30,13 @@ td {
     vertical-align: middle;
     border-color: #005cbf;
     border-width: 10px;
+    border-radius: 6px;
+    padding: 0px;
 }
 th {
     width:20%;
 }
+
 
 #body {
     background-color: rgba(175, 30, 30,0);
@@ -60,4 +70,59 @@ th {
   -ms-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
+}
+
+#headline {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+}
+
+#myTable {
+        /*Hier änderst du die schrift größe*/
+        font-size: 25px;
+        /*Macht die Schrift dick kannst du rauslöschen wenn du willst*/
+        font-weight: bold;
+        max-width: 70%;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        border-spacing: 4px;
+        border-collapse: separate;
+}
+
+#myTable>thead>tr>th {
+    border-bottom: 0px;
+    border-top: 0px;
+    color: whitesmoke;
+}
+
+#myTable>tbody>tr>td {
+    padding: 10px;
+    border-spacing: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+}
+
+#scoreboard {
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+#scoreboard>thead>tr>th {
+    padding: 15px;
+    border-spacing: 4px;
+    vertical-align: bottom;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+#scoreboard>tbody>tr>td {
+    padding: 15px;
+    border-spacing: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
 }
