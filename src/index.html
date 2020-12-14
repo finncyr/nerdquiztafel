@@ -31,11 +31,11 @@
 
             <!--Themenüberschriften  -->
             <tr>
-                <th style="text-align:center"; scope="col">Thema 1</th>
-                <th style="text-align:center"; scope="col">Thema 2</th>
-                <th style="text-align:center"; scope="col">Thema 3</th>
-                <th style="text-align:center"; scope="col">Thema 4</th>
-                <th style="text-align:center"; scope="col">Thema 5</th>
+                <th style="text-align:center"; scope="col">Klassiker</th>
+                <th style="text-align:center"; scope="col">Jazzy</th>
+                <th style="text-align:center"; scope="col">Textlawinen</th>
+                <th style="text-align:center"; scope="col">Gotta go schnell</th>
+                <th style="text-align:center"; scope="col">Chiptune</th>
 
             </tr>
        </thead>
@@ -120,19 +120,29 @@
 
         <!--Themenüberschriften  -->
         <tr>
-            <th style="text-align:center"; scope="col" class="playername">Spieler 1</th>
-            <th style="text-align:center"; scope="col" class="playername">Spieler 2</th>
-            <th style="text-align:center"; scope="col" class="playername">Spieler 3</th>
-            <th style="text-align:center"; scope="col" class="playername">Spieler 4</th>
+            <th style="text-align:center"; scope="col" class="playername" colspan="2">Spieler 1</th>
+            <th style="text-align:center"; scope="col" class="playername" colspan="2">Spieler 2</th>
+            <th style="text-align:center"; scope="col" class="playername" colspan="2">Spieler 3</th>
+            <th style="text-align:center"; scope="col" class="playername" colspan="2">Spieler 4</th>
         </tr>
        </thead>
         <tbody>
             <tr>
                 <!--<th scope="row">X</th>-->
-                <td style="background-color: lightblue;" class="score">0</td>
-                <td style="background-color: lightcoral;" class="score">0</td>
-                <td style="background-color: lightseagreen;" class="score">0</td>
-                <td style="background-color: lightgreen;" class="score">0</td>
+                <td style="background-color: lightblue;" class="score" id="score-1" colspan="2">0</td>
+                <td style="background-color: lightcoral;" class="score" id="score-2" colspan="2">0</td>
+                <td style="background-color: lightseagreen;" class="score" id="score-3" colspan="2">0</td>
+                <td style="background-color: lightgreen;" class="score" id="score-4" colspan="2">0</td>
+            </tr>
+            <tr>
+                <td style="background-color: red;" id="score-1-">-</td>
+                <td style="background-color: green;" id="score-1plus">+</td>
+                <td style="background-color: red;" id="score-2-">-</td>
+                <td style="background-color: green;" id="score-2plus">+</td>
+                <td style="background-color: red;" id="score-3-">-</td>
+                <td style="background-color: green;" id="score-3plus">+</td>
+                <td style="background-color: red;" id="score-4-">-</td>
+                <td style="background-color: green;" id="score-4plus">+</td>
             </tr>
         </tbody>
     </table>

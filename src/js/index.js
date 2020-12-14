@@ -39,6 +39,42 @@ $(document).ready(function () {
             document.getElementById("doubler").innerHTML = "Runde " + roundtemp;
         }
     });
+
+    $('#score-1-').click(function () {
+        var a = parseInt($("#score-1").html());
+        $("#score-1").html( (a - 100).toString() );
+    });
+    $('#score-1plus').click(function () {
+        var b = parseInt($("#score-1").html());
+        $("#score-1").html( (b + 100).toString() );
+    });
+
+    $('#score-2-').click(function () {
+        var c = parseInt($("#score-2").html());
+        $("#score-2").html( (c - 100).toString() );
+    });
+    $('#score-2plus').click(function () {
+        var a = parseInt($("#score-2").html());
+        $("#score-2").html( (a + 100).toString() );
+    });
+
+    $('#score-3-').click(function () {
+        var a = parseInt($("#score-3").html());
+        $("#score-3").html( (a - 100).toString() );
+    });
+    $('#score-3plus').click(function () {
+        var a = parseInt($("#score-3").html());
+        $("#score-3").html( (a + 100).toString() );
+    });
+
+    $('#score-4-').click(function () {
+        var a = parseInt($("#score-4").html());
+        $("#score-4").html( (a - 100).toString() );
+    });
+    $('#score-4plus').click(function () {
+        var a = parseInt($("#score-4").html());
+        $("#score-4").html( (a + 100).toString() );
+    });
 });
 
 
